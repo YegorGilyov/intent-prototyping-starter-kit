@@ -1,0 +1,3 @@
+[submodule "example-reality-check"]
+	path = example-reality-check
+	url = https://github.com/YegorGilyov/reality-check.git
