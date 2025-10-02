@@ -43,8 +43,8 @@ The root component that sets up routing and global providers.
 -   **Location**: `src/App.tsx`
 -   **Purpose**: To provide global context, including Ant Design's `ConfigProvider` and `App` contexts for message notifications, and to render the main page.
 -   **Composition**:
-	-   Wraps the application with `ConfigProvider` and `App as AntApp` from 'antd' to enable global message notifications as per `simple-ice/antd-messages.mdc`.
-	-   Renders `[Page Name]`.
+    -   Wraps the application with `ConfigProvider` and `App as AntApp` from 'antd' to enable global message notifications as per `simple-ice/antd-messages.mdc`.
+    -   Renders `[Page Name]`.
 
 ## 2. Pages
 
@@ -53,7 +53,7 @@ The root component that sets up routing and global providers.
 -   **Location:** `src/pages/PageName.tsx`
 -   **Purpose:** [Briefly describe the main goal and function of this page]
 -   **Data Access:**
-	[List the specific hooks and functions this component uses to fetch or manage its data]
+    [List the specific hooks and functions this component uses to fetch or manage its data]
 -   **Internal State:**
     [Describe any state managed internally by this page using `useState`]
 -   **Composition:**
@@ -61,7 +61,7 @@ The root component that sets up routing and global providers.
 -   **User Interactions:**
     [Describe how the user interacts with this page] 
 -   **Logic:**
-	[If applicable, provide additional comments on how this page should work]
+    [If applicable, provide additional comments on how this page should work]
 
 ## 3. Components
 
@@ -70,7 +70,7 @@ The root component that sets up routing and global providers.
 -   **Location:** `src/components/ComponentName.tsx`
 -   **Purpose:** [Explain what this component does and where it's used]
 -   **Props:**
-	[TypeScript interface definition for the component's props. Props should be minimal. Avoid prop drilling by using hooks for data access.]
+    [TypeScript interface definition for the component's props. Props should be minimal. Avoid prop drilling by using hooks for data access.]
 -   **Data Access:**
     [List the specific hooks and functions this component uses to fetch or manage its data]
 -   **Internal State:**
@@ -80,7 +80,7 @@ The root component that sets up routing and global providers.
 -   **User Interactions:**
     [Describe how the user interacts with the component]
 -   **Logic:**
-	[If applicable, provide additional comments on how this component should work]
+    [If applicable, provide additional comments on how this component should work]
 	
 ```
 

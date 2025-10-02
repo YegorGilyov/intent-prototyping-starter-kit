@@ -11,9 +11,9 @@ Follow these steps precisely:
 ## Ground Rules
 
 - Every entity must have the following attributes:
-	- `id` (string)
-	- `createdAt` (string, ISO 8601 format)
-	- `updatedAt` (string, ISO 8601 format)
+  - `id` (string)
+  - `createdAt` (string, ISO 8601 format)
+  - `updatedAt` (string, ISO 8601 format)
 - Include all attributes shown in the UI: If a piece of data is visually represented as a field for an entity, include it in the model, even if it's calculated from other attributes.
 - Do not add any speculative entities, attributes, or relationships ("just in case"). The model should serve the current sketch's requirements only. 
 - Pay special attention to cardinality definitions (e.g. if a relationship is optional on both sides, it cannot be `"1" -- "0..*"`, it must be `"0..1" -- "0..*"`).
